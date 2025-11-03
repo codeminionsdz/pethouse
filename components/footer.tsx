@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { t } from "@/lib/i18n"
 import { useTheme } from "@/components/theme-provider"
-import { Mail, Phone, MapPin, Instagram, TikTok } from "lucide-react"
+import { Mail, Phone, MapPin, Instagram, Video } from "lucide-react"
 
 export function Footer() {
   const { language } = useTheme()
@@ -99,7 +99,7 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
-                <TikTok className="w-4 h-4" />
+                <Video className="w-4 h-4" />
                 <a
                   href="https://www.tiktok.com/@pet.house.bba?_r=1&_t=ZS-915bDrrtnpn"
                   target="_blank"
