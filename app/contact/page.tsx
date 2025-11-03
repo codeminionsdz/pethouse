@@ -106,7 +106,7 @@ export default function ContactPage() {
                     <Phone className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-2">{t("phone", language)}</h3>
-                      <p className="text-muted-foreground">0782061149</p>
+                      <p className="text-muted-foreground">0781343379</p>
                     </div>
                   </div>
                 </Card>

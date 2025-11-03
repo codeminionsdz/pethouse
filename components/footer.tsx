@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { t } from "@/lib/i18n"
 import { useTheme } from "@/components/theme-provider"
-import { Mail, Phone, MapPin, Instagram } from "lucide-react"
+import { Mail, Phone, MapPin, Instagram, TikTok } from "lucide-react"
 
 export function Footer() {
   const { language } = useTheme()
@@ -77,7 +77,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="w-4 h-4" />
-                <span>0782061149</span>
+                <span>0781343379</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="w-4 h-4" />
@@ -96,6 +96,17 @@ export function Footer() {
                   className="hover:text-primary transition-colors"
                 >
                   @pethouse.bba
+                </a>
+              </li>
+              <li className="flex items-center gap-2 text-muted-foreground">
+                <TikTok className="w-4 h-4" />
+                <a
+                  href="https://www.tiktok.com/@pet.house.bba?_r=1&_t=ZS-915bDrrtnpn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  @pet.house.bba
                 </a>
               </li>
             </ul>
