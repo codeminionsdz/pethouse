@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="pethouse-g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7FA8FF" />
+      <stop offset="1" stop-color="#A9C2FF" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#F7FBFF" />
+  <path d="M32 10L52 26V52H12V26L32 10Z" fill="url(#pethouse-g)" />
+  <path d="M26 26H36C39.313 26 42 28.687 42 32C42 35.313 39.313 38 36 38H32V48H26V26Z" fill="#1A2740" />
+</svg>
